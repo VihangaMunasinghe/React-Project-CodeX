@@ -30,15 +30,3 @@ $ npm install
 ```bash
 $ npm run dev
 ```
-
-4. Run tests to verify your fixes:
-
-```bash
-$ npm run test
-```
-
-5. Run a single test file:
-
-```bash
-$ npx vitest run test/<test-file-name>.test.jsx
-```
