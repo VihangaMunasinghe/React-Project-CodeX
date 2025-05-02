@@ -67,6 +67,8 @@ const Sidebar = () => {
 				</div>
 				<button
 					type="button"
+					role="button"
+					aria-label="checkout"
 					onClick={handleCheckout}
 					className="bg-black flex p-3 justify-center items-center text-white w-full font-medium cursor-pointer"
 				>

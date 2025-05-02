@@ -11,7 +11,9 @@ This challenge is designed to test your React skills, your debugging abilities, 
 ## Your Task
 
 - Explore the codebase and identify the bugs.
-- Create a pull request after fixing a bug
+- Refer to the `issues` folder for a list of issues to address. Solve each issue by fixing the provided components, contexts, or logic.
+- Run the provided tests to verify your fixes.
+- Push your working code once you have passed all tests.
 
 ## Getting Started
 
@@ -27,4 +29,16 @@ $ npm install
 
 ```bash
 $ npm run dev
+```
+
+4. Run tests to verify your fixes:
+
+```bash
+$ npm run test
+```
+
+5. Run a single test file:
+
+```bash
+$ npx vitest run test/<test-file-name>.test.jsx
 ```
