@@ -8,13 +8,6 @@ Urban Loom is a modern clothing store with a React-based online shopping website
 
 This challenge is designed to test your React skills, your debugging abilities, and your attention to detail.
 
-## Your Task
-
-- Explore the codebase and identify the bugs.
-- Refer to the `issues` folder for a list of issues to address. Solve each issue by fixing the provided components, contexts, or logic.
-- Run the provided tests to verify your fixes.
-- Push your working code once you have passed all tests.
-
 ## Getting Started
 
 1. Clone the repository.
