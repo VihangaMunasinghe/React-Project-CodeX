@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router } from "react-router";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import "./index.css";
 import App from "./App.jsx";
 
@@ -10,17 +11,17 @@ import CartProvider from "./contexts/CartContext";
 import CurrencyProvider from "./contexts/CurrencyContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-	<SidebarProvider>
-		<CurrencyProvider>
-			<CartProvider>
-				<ProductProvider>
-					<StrictMode>
-						<Router>
-							<App />
-						</Router>
-					</StrictMode>
-				</ProductProvider>
-			</CartProvider>
-		</CurrencyProvider>
-	</SidebarProvider>
+  <StrictMode>
+    <Router>
+      <SidebarProvider>
+        <CurrencyProvider>
+          <CartProvider>
+            <ProductProvider>
+              <App />
+            </ProductProvider>
+          </CartProvider>
+        </CurrencyProvider>
+      </SidebarProvider>
+    </Router>
+  </StrictMode>
 );

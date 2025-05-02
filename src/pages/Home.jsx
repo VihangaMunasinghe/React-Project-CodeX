@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 const Home = () => {
 	// get products from product context
 	const { products } = useContext(ProductContext);
-
 	return (
 		<div>
 			<Hero />

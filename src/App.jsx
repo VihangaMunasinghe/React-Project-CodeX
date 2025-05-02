@@ -41,6 +41,7 @@ function App() {
             }
           />
         </Routes>
+
         <Sidebar />
         <Footer />
       </div>
