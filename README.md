@@ -11,9 +11,7 @@ This challenge is designed to test your React skills, your debugging abilities, 
 ## Your Task
 
 - Explore the codebase and identify the bugs.
-- Refer to the `issues` folder for a list of issues to address. Solve each issue by fixing the provided components, contexts, or logic.
-- Run the provided tests to verify your fixes.
-- Push your working code once you have passed all tests.
+- Create a pull request after fixing a bug
 
 ## Getting Started
 
